@@ -1,0 +1,14 @@
+class Rectangle():
+    def __int__(self, l, w):
+        self.l = l
+        self.w = w
+
+    def perimeter(self):
+        print("perimeter of rectangle is:",2*l+2*w)
+
+    def area(self):
+        print("area of rectangle is:",l*w)
+
+    ob=rectangl(5,4)
+    ob.perimeter()
+    ob.area()
